@@ -40,7 +40,7 @@ public class UserController {
                 FacesMessage(FacesMessage.SEVERITY_INFO, msg, msg));
         FacesContext.getCurrentInstance().getExternalContext()
                 .getFlash().setKeepMessages(true);
-        return "registration.jsf?faces-redirect=true";
+        return "registrationWithVal.xhtml?faces-redirect=true";
     
     }
 }
